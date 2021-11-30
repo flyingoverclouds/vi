@@ -1,0 +1,22 @@
+aide_dta:
+        db "                     ROLE DES TOUCHES EN MODE ...",13,10
+        db "____________________________________________________________________________",13,10
+        db "___________COMMANDE__________________|________________EDITION_______________",13,10
+        db "                                     |                                      ",13,10
+        db "[c] charger un fichier               | [->] deplacement a gauche            ",13,10
+        db "[s] sauver un fichier                | [<-] deplacement a droite            ",13,10
+        db "[x] efface le caractere courant      | [/\] une ligne plus haut             ",13,10
+        db "[d] debut de la ligne courante       | [\/] une ligne plus bas              ",13,10
+        db "[f] fin de la ligne courante         | [ESC] mode commande                  ",13,10
+        db "[i] Mode edition/Insertion           |                                      ",13,10
+        db "[e] Mode edition/Ecrasement          |                                      ",13,10
+        db "[u] raffraichissement d'ecran        |                                      ",13,10
+        db "[t] debut d'ecran                    |                                      ",13,10
+        db "[b] fin d'ecran                      |                                      ",13,10
+        db "[h] aide                             |                                      ",13,10
+        db "[Q] quitter                          |                                      ",13,10
+        db "_____________________________________|______________________________________",13,10
+        db "    / \                                                                     ",13,10
+        db "  /  |  \   La sauvegarde des fichiers est au format Unix !!!               ",13,10
+        db "/____!____\                                                                 ",13,10
+        db "                         .... Pressez [ENTREE] ....$"

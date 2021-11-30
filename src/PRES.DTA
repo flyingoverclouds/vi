@@ -1,0 +1,19 @@
+pres_dta:       
+        db 10,10
+        db "**************************************************************************",13,10
+        db "**                                                                      **",13,10
+        db "**                Mini Editeur (c) Nicolas CLERC 1995                   **",13,10
+        db "**       Loic CHARDON    Isabelle BREZIAT    Stephanie LOTTAZ           **",13,10
+        db "**   Realise en Assembleur dans le cadre d'un TP ... d'assembleur !     **",13,10
+        db "**                aj2g30                       aj2g29                   **",13,10
+        db "**************************************************************************",13,10
+        db 10,10,"Caracteristique du programme :",13,10
+        db "    - mode EDITION / mode COMMANDE",13,10
+        db "    - buffer de texte de 512 octets",13,10
+        db " ___________________________________ ___________________________________",13,10
+        db "|Mode EDITION :                     |   mode Commande :                 |",13,10
+        db "|   Insertion/Ecrasement            |        Chargement/Sauvegarde      |",13,10
+        db "|  (Selection  )                    |       (Recherche)                 |",13,10
+        db "|  (Suppression)                    |                                   |",13,10
+        db "|___________________________________|___________________________________|",13,10
+        db 10,10,"Pressez [ENTREE] ...$"
